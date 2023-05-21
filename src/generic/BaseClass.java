@@ -13,6 +13,8 @@ public class BaseClass {
 
 	public WebDriver driver;
 	public WebDriverWait wait;
+	public static String configPath="./Config.properties";
+	public static String testDataPath="./data/TestData.xlsx";
 	
 	@BeforeMethod
 	public void openApp() throws Exception {
